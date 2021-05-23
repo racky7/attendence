@@ -78,7 +78,7 @@ else{
             <input type="checkbox" class="form-check-input" id="TaCs" name="TaCs">
             <label class="form-check-label" for="exampleCheck1">Agree with Terms and Conditions</label>
         </div>
-        <div class="d-grid gap-2 col-6 mx-auto my-3"><a href="viewrecords.php" class="btn btn-info">Back to List</a></div> <div class="d-grid gap-2 col-6 mx-auto my-3"><button type="submit" name="submit" class="btn btn-success ">Save Changes</button></div>
+        <div><a href="viewrecords.php" class="btn btn-info">Back to List</a> <button type="submit" name="submit" class="btn btn-success ">Save Changes</button></div>
         
     
     </form>
