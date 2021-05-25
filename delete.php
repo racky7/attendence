@@ -1,7 +1,8 @@
 <?php 
 
-
+require_once 'includes/auth_check.php';
 require_once 'DB/conn.php'; 
+
 
 if(!$_GET['id']){
     header("Location: viewrecords.php");

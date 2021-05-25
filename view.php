@@ -2,6 +2,7 @@
 $title = 'View Details';
 require_once 'includes/header.php'; 
 require_once 'DB/conn.php'; 
+require_once 'includes/auth_check.php';
 
 //Get attendee by Id
 if(!isset($_GET['id'])){

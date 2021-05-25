@@ -1,6 +1,6 @@
 <?php
 
-    //Development Connection
+    // Development Connection
     // $host = '127.0.0.1';
     // $db = 'attendance_db';
     // $user = 'root';
@@ -28,6 +28,10 @@
     }
 
     require_once 'crud.php';
-    $crud = new crud($pdo = new PDO($dsn, $user, $pass))
+    require_once 'user.php';
+    $crud = new crud($pdo = new PDO($dsn, $user, $pass));
+    $user = new user($pdo);
+
+    $user->insertUser("admin","password");
 
 ?>

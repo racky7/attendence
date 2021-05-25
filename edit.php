@@ -2,6 +2,7 @@
 $title = 'Edit Record';
 require_once 'includes/header.php'; 
 require_once 'DB/conn.php'; 
+require_once 'includes/auth_check.php';
 
 $result = $crud->getGender();
 
